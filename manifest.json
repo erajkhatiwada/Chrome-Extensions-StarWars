@@ -1,0 +1,17 @@
+{
+    "name": "Star Wars Theme",
+    "description": "A tab that opens a star wars theme.",
+    "version": "0.0.0.1",
+    "manifest_version": 2,
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "icons": {
+        "128": "starWars.png"
+    },
+    "browser_action": {
+    "default_icon": "starWars.png",
+    "default_popup": "popup.html"
+  }
+    
+}
